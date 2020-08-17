@@ -10,10 +10,10 @@ x1 = [2, 4, 6, 8, 9]
 y1 = [5, 1, 3, 7, 4]
 
 if __name__ == '__main__':
-    graph = 'bar'
+    graph = 'scatterplot'
 
-    plt.bar(x0, y0, label = "orange")
-    plt.bar(x1, y1, label = "blue")
+    plt.scatter(x0, y0, label = "red", color="r")
+    plt.scatter(x1, y1, label = "blue", color="b")
 
     plt.title('Example: '+ graph +' graph')
     plt.xlabel("X axis")
