@@ -4,52 +4,54 @@ import matplotlib.pyplot as plt
 PATH_DATA = 'data/ncbi/'
 PATH_OUTPUT = 'view/html/'
 
+DICT_NUCLEOBASE = ['A', 'T', 'C', 'G']
+
 """ Source: NCBI
     * Human 18S rRNA gene:
         https://www.ncbi.nlm.nih.gov/nuccore/M10098.1?report=fasta
     * Escherichia coli strain U 5/41 16S ribosomal RNA:
         https://www.ncbi.nlm.nih.gov/nuccore/NR_024570.1?report=fasta
 """
-dt_human = open(PATH_DATA+"human.fasta").read()
-dt_bacteria = open(PATH_DATA+"bacteria.fasta").read()
+def histogram(path_of_data, dictionary):
+    count = {}
+    data = open(path_of_data).read()
+    data = data.replace("\n", "")
 
-html_human = open(PATH_OUTPUT+"human.html", "w")
-html_bacteria = open(PATH_OUTPUT+"bacteria.html", "w")
+    for i in dictionary:
+        for j in dictionary:
+            count[i+j] = 0
 
-dict_nucleobase = ['A', 'T', 'C', 'G']
+    for k in range(len(data)-1):
+        count[data[k]+data[k+1]] += 1
+    return count
 
-count = {}
 
-for i in dict_nucleobase:
-    for j in dict_nucleobase:
-        count[i+j] = 0
+def export_html(histogram):
+    i = 1
+    html_nucleobase = open(PATH_OUTPUT+NUCLEOBASE+".html", "w")
 
-dt_bacteria = dt_bacteria.replace("\n", "")
-
-for k in range(len(dt_bacteria)-1):
-    count[dt_bacteria[k]+dt_bacteria[k+1]] += 1
-
-print(count)
-
-# HTML
-i = 1
-for k in count:
-    info = count[k] / max(count.values())
-    html_bacteria.write(
-        "<div "
-        +"style='width:100px; "
-        +"border:1px solid #111; "
-        +"height:100px; "
-        +"float: left; "
-        +"background-color: rgba(0,0,0,"
-        + str(info) 
-        +"'></div>"
-    )
-
-    if i%4 == 0:
-        html_bacteria.write(
-            "<div style ='clear:both'><div>"
+    for k in histogram:
+        normalization = histogram[k] / max(histogram.values())
+        html_nucleobase.write(
+            "<div "
+            +"style='width:100px; "
+            +"border:1px solid #111; "
+            +"height:100px; "
+            +"float: left; "
+            +"background-color: rgba(0,0,0,"
+            + str(normalization) 
+            +"'></div>"
         )
-    i += 1
-    
-html_bacteria.close()
+        if i%4 == 0:
+            html_nucleobase.write(
+                "<div style ='clear:both'><div>"
+            )
+        i += 1
+    html_nucleobase.close()
+
+
+if __name__ == '__main__':
+    NUCLEOBASE = "human" #or "bacteria"
+
+    hist = histogram((PATH_DATA+NUCLEOBASE+".fasta"), DICT_NUCLEOBASE)
+    export_html(hist)
