@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
 
-PATH_DATA = 'data/ncbi/'
-PATH_OUTPUT = 'view/html/'
+PATH_DATA = 'matplotlib/data/ncbi/'
+PATH_OUTPUT = 'matplotlib/view/html/'
 
 DICT_NUCLEOBASE = ['A', 'T', 'C', 'G']
 
