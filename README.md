@@ -11,23 +11,10 @@
 * **Statsmodels** é um pacote Python que permite aos usuários explorar dados, estimar modelos estatísticos e executar testes estatísticos
 
 
-## Machine Learning
-
-* **Scikit-learn** é uma biblioteca de aprendizado de máquina de código aberto para a linguagem de programação Python
-
-* **TensorFlow** é uma biblioteca de código aberto para aprendizado de máquina aplicável a uma ampla variedade de tarefas. É um sistema para criação e treinamento de redes neurais para detectar e decifrar padrões e correlações
-
-    * **Keras** é uma biblioteca de rede neural de código aberto escrita em Python. Ele é capaz de rodar em cima de TensorFlow, Microsoft Cognitive Toolkit, R, Theano, ou PlaidML. Projetado para permitir experimentação rápida com redes neurais profundas, ele se concentra em ser fácil de usar, modular e extensível
 
 
 ## Processamento paralelo 
 * [Spark](https://spark.apache.org/docs/latest/api/python/index.html)
-
-
-## Web Scraping
-* [LXML](https://lxml.de/)
-* [HTLM5LIB](https://html5lib.readthedocs.io/en/latest/)
-* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 ---
 
