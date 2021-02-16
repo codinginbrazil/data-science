@@ -10,25 +10,6 @@
 
 * **Statsmodels** é um pacote Python que permite aos usuários explorar dados, estimar modelos estatísticos e executar testes estatísticos
 
-## Agregadores
-
-* **Anaconda** é uma distribuição gratuita e de código aberto das linguagens de programação Python e R para computação científica, que visa simplificar o gerenciamento e a implantação de pacote
-
-
-## Data visualization
-### [Matplotlib](https://matplotlib.org/index.html)
-> Gráficos e visualizações de dados em geral, feita para e da linguagem de programação Python e sua extensão de matemática NumPy.
-
----
-
-## Processamento de imagens
-* **Python Imaging Library** é uma biblioteca da linguagem de programação Python que adiciona suporte à abertura e gravação de muitos formatos de imagem diferentes.
-
-* **scikit-image** é uma biblioteca de processamento de imagens de código aberto para a linguagem de programação Python. Inclui algoritmos para segmentação, transformações geométricas, manipulação do espaço de cores, análise, filtragem, morfologia, detecção de recursos e muito mais.
-
-* **OpenCV** é uma biblioteca multiplataforma, totalmente livre ao uso acadêmico e comercial, para o desenvolvimento de aplicativos na área de Visão computacional
-
-* **PyTorch** é uma biblioteca de aprendizado de máquina de código aberto baseada na biblioteca Torch, usada para aplicativos como visão computacional e processamento de linguagem natural
 
 ## Machine Learning
 
