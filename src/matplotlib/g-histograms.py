@@ -7,7 +7,7 @@ from matplotlib.ticker import PercentFormatter
     https://matplotlib.org/gallery/statistics/hist.html?highlight=histograms
 '''
 
-PATH = 'matplotlib/view/graph/'
+PATH = 'view/graph/'
 GRAPH = 'histograms'
 
 # Fixing random state for reproducibility

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-PATH = 'matplotlib/view/graph/'
+PATH = 'view/graph/'
 GRAPH = 'stacked-bar-chart'
 
 labels = ['G1', 'G2', 'G3', 'G4', 'G5']

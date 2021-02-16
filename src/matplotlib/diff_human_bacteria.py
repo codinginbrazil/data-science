@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
 
-PATH_DATA = 'matplotlib/data/ncbi/'
-PATH_OUTPUT = 'matplotlib/view/html/'
+PATH_DATA = 'data/ncbi/'
+PATH_OUTPUT = 'view/html/'
 
 DICT_NUCLEOBASE = ['A', 'T', 'C', 'G']
 
@@ -55,3 +55,4 @@ if __name__ == '__main__':
 
     hist = histogram((PATH_DATA+NUCLEOBASE+".fasta"), DICT_NUCLEOBASE)
     export_html(hist)
+    

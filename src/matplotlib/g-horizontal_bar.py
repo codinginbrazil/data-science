@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-PATH = 'matplotlib/view/graph/'
+PATH = 'view/graph/'
 GRAPH = 'horizontal_bar'
 
 # Fixing random state for reproducibility

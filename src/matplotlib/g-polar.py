@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 '''
     https://matplotlib.org/gallery/pie_and_polar_charts/polar_bar.html#sphx-glr-gallery-pie-and-polar-charts-polar-bar-py
 '''
-PATH = 'matplotlib/view/graph/'
+PATH = 'view/graph/'
 GRAPH = 'polar'
 
 # Fixing random state for reproducibility

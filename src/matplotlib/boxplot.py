@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
     https://matplotlib.org/gallery/statistics/bxp.html#sphx-glr-gallery-statistics-bxp-py
 '''
 
-PATH = 'matplotlib/view/graph/'
+PATH = 'view/graph/'
 
 dt = [1,2,4,6,8,12,512,12,2]
 

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
     https://matplotlib.org/gallery/lines_bars_and_markers/barchart.html#sphx-glr-gallery-lines-bars-and-markers-barchart-py
 '''
 
-PATH = 'matplotlib/view/graph/'
+PATH = 'view/graph/'
 GRAPH = 'bar'
 
 x0 = [1, 3, 5, 7, 9]

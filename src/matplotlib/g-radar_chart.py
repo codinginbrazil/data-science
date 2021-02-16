@@ -12,7 +12,7 @@ from matplotlib.transforms import Affine2D
 '''
     https://matplotlib.org/gallery/specialty_plots/radar_chart.html?highlight=radar%20chart
 '''
-PATH = 'matplotlib/view/graph/'
+PATH = 'view/graph/'
 GRAPH = 'radar'
 
 def radar_factory(num_vars, frame='circle'):
@@ -178,3 +178,4 @@ if __name__ == '__main__':
              size='large')
 
     plt.savefig(PATH+GRAPH+'.pdf', dpi=300)
+    

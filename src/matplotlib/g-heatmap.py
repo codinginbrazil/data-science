@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 '''
     https://matplotlib.org/gallery/images_contours_and_fields/image_annotated_heatmap.html#sphx-glr-gallery-images-contours-and-fields-image-annotated-heatmap-py
 '''
-PATH = 'matplotlib/view/graph/'
+PATH = 'view/graph/'
 GRAPH = 'heatmap'
 
 vegetables = ["cucumber", "tomato", "lettuce", "asparagus",

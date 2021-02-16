@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-PATH = 'matplotlib/view/graph/'
+PATH = 'view/graph/'
 GRAPH = 'scatterplot'
 
 x0 = [1, 3, 5, 7, 9]
