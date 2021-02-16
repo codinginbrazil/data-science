@@ -10,14 +10,6 @@
 
 * **Statsmodels** é um pacote Python que permite aos usuários explorar dados, estimar modelos estatísticos e executar testes estatísticos
 
-
-
-
-## Processamento paralelo 
-* [Spark](https://spark.apache.org/docs/latest/api/python/index.html)
-
----
-
 ## Ferramentas
 * **IPython** é um interpretador interativo para várias linguagens de programação, mas especialmente focado em Python. Ipython oferece "type introspection", "rich media", sintax shell, completação por tab e edição auxiliada por histórico de comando
     * JupyterLab
