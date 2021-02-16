@@ -20,5 +20,23 @@ interpretador interativo para várias linguagens de programação, mas especialm
 
 --- 
 
+# Ferramentas
+
+## Weka
+## Matlab
+## R Studio
+## Wolfram mathematica
+## RapidMiner
+## SAS
+## SSPS
+## Orange
+## Mahout
+## ELKI
+## LIBSVM
+## Tableau
+
+
+---
+
 # [Airflow](https://airflow.apache.org/)
 Plataforma de gerenciamento de fluxo de trabalho de código aberto
