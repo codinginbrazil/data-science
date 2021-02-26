@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-PATH_DATA =  'data/'
+PATH_DATA =  'data/bra_population/'
 PATH_GRAPH = 'view/graph/bra_population/'
 
 x=y=[]
