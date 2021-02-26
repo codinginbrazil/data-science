@@ -15,7 +15,7 @@ Portanto, para cumprir tal finalidade, reuni áreas distintas, como estatística
 </p>
 
 1. Dados: 
-conjunto de dados organizados de forma qualitativa ou quantitativa sobre determinado tema, no qual possibilidade a extração de informação que pode resultar em conhecimento.
+conjunto de dados organizados de forma *qualitativa* ou *quantitativa* sobre determinado tema, no qual possibilidade a extração de informação que pode resultar em conhecimento.
 
 2. Pré-processamento dos dados: 
 
@@ -51,7 +51,21 @@ Identificar os padrões obtidos pela representação do conhecimento são válid
 
 1. Introdução a mineração de dados por Daniel Gomes Ferrari e Leandro Nunes de Castro Silva
 2. Python para análise de dados por Wes McKinney
-#### Data visualization
+3. [Introdução à Ciência de Dados Fundamentos e Aplicações](https://www.ime.usp.br/~jmsinger/MAE5755/cdados2019ago06.pdf)
+
+### Data visualization
 * [Matplotlib](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html)
 * [Data Visualization – Charts with Matplotlib](https://petamind.com/data-visualization-matplotlib-python-chart/)
 * [Data Science: Visualização de Dados com Python](https://www.udemy.com/course/visualizacao-de-dados-com-python/)
+
+### Data Repositories
+* [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php)
+* [KDnuggets](https://www.kdnuggets.com/datasets/index.html)
+* [Brasil IO](https://brasil.io/)
+* [Governo Brasileiro](https://dados.gov.br/)
+* [Governo Americano](https://www.data.gov/)
+* [Governo do Inglês](https://data.gov.uk/)
+
+### Cursos
+* [UFPR](http://cursos.leg.ufpr.br/ML4all/1parte/)
+
