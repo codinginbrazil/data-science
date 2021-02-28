@@ -12,7 +12,10 @@ class Normalization(object):
             
     
     def decimal_scaling(self):
-        return self.value 
+        arr = self.value 
+        for i in range(arr.size):
+            arr[i] /= 100.0
+        return arr
         
     
     def interquartile_range(self):
@@ -89,7 +92,7 @@ class Normalization(object):
     
     @value.setter
     def value(self, value):
-        self._value = np.array(value)
+        self._value = np.array(value).astype(float)
         
     @value.deleter
     def value(self):

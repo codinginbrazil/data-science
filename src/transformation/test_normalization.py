@@ -37,7 +37,7 @@ def test_std():
 
 
 def test_decimal_scaling():
-    assert set(nm(ORIGINAL).decimal_scaling()) != DECIMAL_SCALING
+    assert set(nm(ORIGINAL).decimal_scaling()) == DECIMAL_SCALING
     
     
 # def test_interquartile_range():
