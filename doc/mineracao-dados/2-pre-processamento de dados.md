@@ -89,27 +89,34 @@ escala e unidades em bases compatíveis
         A normalização Max-Min realiza uma transformação linear nos dados originais. Assuma que max_a e min_a são,respectivamente, os valores máximo e mínimo de determinado atributo a. 
         A normalização max-min mapeia um valor a em um valor a’ no domínio [novo_min_a′, novo_max_a′], de acordo com a Equação abaixo. 
         A aplicação mais frequente dessa normalização é colocar todos os atributos de uma base de dados sob um mesmo intervalo de valores, por exemplo no intervalo [0, 1].
-
-        > a' = (a - min_a) / (max_a - min_a) * ( novo_max_a - novo_min_a) + novo_min_a
+        
+        $$
+            a' = \frac{a - min_a}{max_a - min_a}
+        $$
 
     * Escore-Z:
         
         Útil quando se desconhece a amplitude dos dados ou há outliers.
-
-        > a' = (a - ã) / \delta_a
+        
+        $$
+            a' = \frac{a - \bar{a} } {\delta_a} 
+        $$
 
     * Escalonamento decimal:
 
         Estabelecido pelo escalonamento decimal move a casa decimal dos valores do atributo a. O número de casas decimais movidas depende do valor máximo absoluto do atributo a. 
         A Equação abaixo, na qual j é o menor inteiro tal que max(|a’|) < 1, ilustra o cálculo do valor normalizado.
 
-        > a´ = a / 10^j
+        $$
+            a´ = \frac{a}{10~^j}
+        $$
 
     * Range interquatil:
 
     * Trivial:
     
-        > a´ = a / max_a
-
+        $$
+            a´ = \frac{a}{max_a}
+        $$
 
 
