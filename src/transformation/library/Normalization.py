@@ -36,8 +36,11 @@ class Normalization(object):
         return np.around(arr, decimals=decimals)
     
     
-    def z_score(self):
-        return self.value
+    def z_score(self, decimals):
+        arr = self.value 
+        for i in range(arr.size):
+            arr[i] = (arr[i] - self.avg) / (self.std)
+        return np.around(arr, decimals=decimals)
     
 
     @property
@@ -85,7 +88,8 @@ class Normalization(object):
     
     @std.setter
     def std(self, std):
-        self._std = np.std(std)
+        self._std = np.around((np.std(std, ddof=1)), decimals=5)
+
         
     @std.deleter
     def std(self):

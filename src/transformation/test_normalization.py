@@ -5,7 +5,7 @@ from library import Normalization as nm
 AVG = 56.4
 LARGE = 74
 SMALL = 28
-STANDARD_DEVIATION = 13.74918179383777
+STANDARD_DEVIATION = 14.49291
 
 ORIGINAL = {67, 43, 58, 28, 74, 65, 70, 42, 57, 60}
 
@@ -35,7 +35,6 @@ def test_std():
     assert (nm(ORIGINAL).std) == STANDARD_DEVIATION 
 
 
-
 def test_decimal_scaling():
     assert set(nm(ORIGINAL).decimal_scaling()) == DECIMAL_SCALING
     
@@ -51,5 +50,5 @@ def test_trivial():
     assert set(nm(ORIGINAL).trivial(3)) == TRIVIAL
 
 
-# def test_z_score():
-#     assert set(nm(ORIGINAL).z_score()) != Z_SCORE
+def test_z_score():
+    assert set(nm(ORIGINAL).z_score(3)) == Z_SCORE
