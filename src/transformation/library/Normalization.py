@@ -26,8 +26,11 @@ class Normalization(object):
         return self.value
     
     
-    def trivial(self):
-        return self.value
+    def trivial(self, decimals):
+        arr = self.value 
+        for i in range(arr.size):
+            arr[i] /= self.large
+        return np.around(arr, decimals=decimals)
     
     
     def z_score(self):
