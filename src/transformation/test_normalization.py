@@ -43,8 +43,8 @@ def test_decimal_scaling():
 # def test_interquartile_range():
 #     assert set(nm(ORIGINAL).interquartile_range()) != INTERQUARTILE_RANGE
 
-# def test_max_min():
-#     assert set(nm(ORIGINAL).max_min()) != MAX_MIN
+def test_max_min():
+    assert set(nm(ORIGINAL).max_min(3)) == MAX_MIN
 
 
 def test_trivial():

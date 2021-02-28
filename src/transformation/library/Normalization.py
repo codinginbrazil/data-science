@@ -22,8 +22,11 @@ class Normalization(object):
         return self.value
     
     
-    def max_min(self):
-        return self.value
+    def max_min(self, decimals):
+        arr = self.value 
+        for i in range(arr.size):
+            arr[i] = (arr[i] - self.small) / (self.large - self.small)
+        return np.around(arr, decimals=decimals)
     
     
     def trivial(self, decimals):
