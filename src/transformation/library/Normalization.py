@@ -2,7 +2,7 @@ import numpy as np
 
 
 class Normalization(object):
-    def __init__(self, value):
+    def __init__(self, value: set):
         value = list(value)
         self.avg = value
         self.large = value
@@ -11,32 +11,32 @@ class Normalization(object):
         self.value = value
             
     
-    def decimal_scaling(self):
+    def decimal_scaling(self) -> np.array:
         arr = self.value 
         for i in range(arr.size):
             arr[i] /= 100.0
         return arr
         
     
-    def interquartile_range(self):
-        return self.value
+    # def interquartile_range(self):
+    #     return self.value
     
     
-    def max_min(self, decimals):
+    def max_min(self, decimals: int) -> np.array:
         arr = self.value 
         for i in range(arr.size):
             arr[i] = (arr[i] - self.small) / (self.large - self.small)
         return np.around(arr, decimals=decimals)
     
     
-    def trivial(self, decimals):
+    def trivial(self, decimals: int) -> np.array:
         arr = self.value 
         for i in range(arr.size):
             arr[i] /= self.large
         return np.around(arr, decimals=decimals)
     
     
-    def z_score(self, decimals):
+    def z_score(self, decimals: int) -> np.array:
         arr = self.value 
         for i in range(arr.size):
             arr[i] = (arr[i] - self.avg) / (self.std)
