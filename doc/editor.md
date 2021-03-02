@@ -9,34 +9,52 @@ interpretador interativo para várias linguagens de programação, mas especialm
 * Colab Notebooks
 * [Kaggle](https://www.kaggle.com/)
 
-## Vim
-## Atom
-## Sublime-text
-## VSCode
-## Spyder3
-## PyDev
-## PyCharm da JetBrains
-## Komodi IDE
+## Tradicional
+* Vim
+* Atom
+* Sublime-text
+* VSCode
+* Spyder3
+* PyDev
+* PyCharm da JetBrains
+* Komodi IDE
+* [Kite](https://www.kite.com/)
 
 --- 
 
-# Ferramentas
+## Ferramentas
 
-## Weka
-## Matlab
-## R Studio
-## Wolfram mathematica
-## RapidMiner
-## SAS
-## SSPS
-## Orange
-## Mahout
-## ELKI
-## LIBSVM
-## Tableau
+* Weka
+* Matlab
+* R Studio
+* Wolfram mathematica
+* RapidMiner
+* SAS
+* SSPS
+* Orange
+* Mahout
+* ELKI
+* LIBSVM
 
+## Visualização de dados
+* Tableau: visualização dinâmica dos dados e dashboard personalizado
+* PowerBI: integração com os serviços Microsoft 
+* Data Studio: integração com os serviços Google
+* Qlik: licitação 
 
 ---
 
-# [Airflow](https://airflow.apache.org/)
-Plataforma de gerenciamento de fluxo de trabalho de código aberto
+# Apache
+* [Airflow](https://airflow.apache.org/): plataforma de gerenciamento de fluxo de trabalho de código aberto
+
+## Integração dos dados
+* [Kafka](https://kafka.apache.org/)
+* [Spark](https://spark.apache.org/)
+* [NiFi](https://nifi.apache.org/)
+
+--- 
+
+# Microsserviços
+* Docker
+* Docker Compose
+* Kubernet
