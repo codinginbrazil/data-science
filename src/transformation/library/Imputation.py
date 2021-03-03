@@ -9,45 +9,66 @@ class Imputation(object):
         logging.basicConfig(filename=('log/imputation.txt'),
         level=logging.DEBUG, 
         format=' %(asctime)s - %(levelname)s - %(message)s')
+        logging.disable()
 
         self.df = df
+        self.dimension = labels
         del(df)
+        del(labels)
+        
         self.rows_size = len(self.df)
         self.columns_size = len(self.df.columns) - 1
-        self.label = [labels, self.columns_size]
-        self.count = [labels, self.columns_size]
+        self.label_sum = [self.dimension, self.columns_size]
+        self.count = [self.dimension, self.columns_size]
 
+        self._central_trend()
+    
         logging.debug("Dataframe number of rows: - " + str(self.rows_size))
-        logging.debug("Dataframe number of columns - " + str(self.columns_size))         
+        logging.debug("Dataframe number of columns - " + str(self.columns_size))
+        logging.debug("Imputation.avg")
+        logging.debug("Benign sum - " + str(self.label_sum[0]))
+        logging.debug("Malignant sum - " + str(self.label_sum[1]))
+        logging.debug("Benign count - " + str(self.count[0]))
+        logging.debug("Malignant count - " + str(self.count[1]))         
     
     
-    def avg(self) -> np: 
+    def _central_trend(self): 
+        NULL = '?'
         for i in range(self.rows_size):        
             if ((self.df.iloc[i, -1]) == 0):
                 for j in range(self.columns_size): 
-                    if (self.df.iloc[i, j] != '?'):
+                    if (self.df.iloc[i, j] != NULL):
                         self.count[0][j] += 1
-                        self.label[0][j] += (float(self.df.iloc[i, j]))        
+                        self.label_sum[0][j] += (float(self.df.iloc[i, j]))        
             else:
                 for j in range(self.columns_size):
-                    if (self.df.iloc[i, j] != '?'):
+                    if (self.df.iloc[i, j] != NULL):
                         self.count[1][j] += 1
-                        self.label[1][j] += (float(self.df.iloc[i, j]))
-        
-        logging.debug("Imputation.avg")
-        logging.debug("Benign sum - " + str(self.label[0]))
-        logging.debug("Malignant sum - " + str(self.label[1]))
-        logging.debug("Benign count - " + str(self.count[0]))
-        logging.debug("Malignant count - " + str(self.count[1]))
-                      
-        self.label[0] = np.around(self.label[0] / self.count[0])
-        self.label[1] = np.around(self.label[1] / self.count[1])
-
-        logging.debug("Benign avg - " + str(self.label[0]))
-        logging.debug("Malignant avg - " + str(self.label[1]))
-        
-        return self.label  
+                        self.label_sum[1][j] += (float(self.df.iloc[i, j]))
     
+    
+    def avg(self) -> np:
+        avg = self.label_sum
+        avg[0] = np.around(avg[0] / self.count[0])
+        avg[1] = np.around(avg[1] / self.count[1])
+
+        logging.debug("Benign avg - " + str(avg[0]))
+        logging.debug("Malignant avg - " + str(avg[1]))
+        
+        return avg
+    
+    
+    # def mode(self) -> np:
+    #     pass
+    
+    
+    # def median(self) -> np:
+    #     pass
+    
+    
+    # def standard_deviation(self) -> np:
+    #     pass
+
 
     @property
     def rows_size(self):
@@ -89,14 +110,14 @@ class Imputation(object):
         
         
     @property
-    def label(self):
-        return self._label 
+    def label_sum(self):
+        return self._label_sum 
     
-    @label.setter
-    def label(self, label):
-        self._label = np.zeros(label)
+    @label_sum.setter
+    def label_sum(self, label_sum):
+        self._label_sum = np.zeros(label_sum)
         
-    @label.deleter
-    def label(self):
-        del self._label
+    @label_sum.deleter
+    def label_sum(self):
+        del self._label_sum
           

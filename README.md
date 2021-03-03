@@ -49,13 +49,15 @@ Identificar os padrões obtidos pela representação do conhecimento são válid
 
 ## Referência
 
-### Livreo
+### Livro
 1. Introdução a mineração de dados por Daniel Gomes Ferrari e Leandro Nunes de Castro Silva
 2. Python para análise de dados por Wes McKinney
 3. [Introdução à Ciência de Dados Fundamentos e Aplicações](https://www.ime.usp.br/~jmsinger/MAE5755/cdados2019ago06.pdf)
 
 ### Blog
 * [DIKW by Towards Data Science](https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb)
+* [Curso R](https://blog.curso-r.com/)
+* [Tests as linear by Lindeloev](https://lindeloev.github.io/tests-as-linear/)
 
 ### Data visualization
 * [Matplotlib](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html)
