@@ -68,7 +68,22 @@ class Imputation(object):
     
     # def standard_deviation(self) -> np:
     #     pass
-
+    
+    
+    def replace(self, find, replace) -> pd:
+        NULL = find
+        df = self.df
+        for i in range(self.rows_size):        
+            if ((df.iloc[i, -1]) == 0):
+                for j in range(self.columns_size): 
+                    if (self.df.iloc[i, j] == NULL):
+                        (df.iloc[i, j]) = replace[0][j]         
+            else:
+                for j in range(self.columns_size):
+                    if (df.iloc[i, j] == NULL):
+                        (df.iloc[i, j]) = replace[1][j]
+        return df
+    
 
     @property
     def rows_size(self):

@@ -1,0 +1,346 @@
+ 2021-03-02 22:04:02,427 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:04:02,453 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:04:02,454 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 22:04:02,454 - DEBUG - Benign - 2
+ 2021-03-02 22:04:02,454 - DEBUG - Malignant - 3
+ 2021-03-02 22:05:21,945 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:05:21,975 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:05:21,975 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 22:05:21,975 - DEBUG - Benign - 2
+ 2021-03-02 22:05:21,976 - DEBUG - Malignant - 3
+ 2021-03-02 22:05:31,888 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:05:31,914 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:05:31,914 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 22:05:31,914 - DEBUG - Benign - 2
+ 2021-03-02 22:05:31,914 - DEBUG - Malignant - 3
+ 2021-03-02 22:14:13,358 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:14:13,384 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:14:13,384 - DEBUG - Dataframe number of columns - 1
+ 2021-03-02 22:14:13,384 - DEBUG - Benign - 2
+ 2021-03-02 22:14:13,384 - DEBUG - Malignant - 3
+ 2021-03-02 22:14:26,970 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:14:26,997 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:14:26,997 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:14:26,997 - DEBUG - Benign - 22
+ 2021-03-02 22:14:26,998 - DEBUG - Malignant - 39
+ 2021-03-02 22:15:00,638 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:15:00,668 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:15:00,668 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:16:58,572 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:16:58,599 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:16:58,600 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:17:52,281 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:17:52,309 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:17:52,309 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:18:18,038 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:18:18,067 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:18:18,067 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:18:18,067 - DEBUG - Benign - 22
+ 2021-03-02 22:18:18,067 - DEBUG - Malignant - 39
+ 2021-03-02 22:18:26,666 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:18:26,693 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:18:26,693 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:19:42,300 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:19:42,328 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:19:42,329 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:19:42,329 - DEBUG - Benign - 2
+ 2021-03-02 22:19:42,329 - DEBUG - Malignant - 3
+ 2021-03-02 22:22:04,773 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:22:04,798 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:22:04,798 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:22:04,799 - DEBUG - Benign - 0
+ 2021-03-02 22:22:04,799 - DEBUG - Malignant - 0
+ 2021-03-02 22:23:32,146 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:23:32,171 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:23:32,172 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:23:32,172 - DEBUG - Benign - 2
+ 2021-03-02 22:23:32,172 - DEBUG - Malignant - 3
+ 2021-03-02 22:27:12,120 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:27:12,145 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:27:12,145 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:27:12,146 - DEBUG - Benign - [2. 0. 0. 0. 0.]
+ 2021-03-02 22:27:12,147 - DEBUG - Malignant - [3. 0. 0. 0. 0.]
+ 2021-03-02 22:27:42,305 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:27:42,335 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:27:42,335 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:27:42,336 - DEBUG - Benign - [2. 0. 0. 0. 0.]
+ 2021-03-02 22:27:42,336 - DEBUG - Malignant - [3. 0. 0. 0. 0.]
+ 2021-03-02 22:28:13,152 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:28:13,176 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:28:13,176 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:28:13,177 - DEBUG - Benign - [2. 0. 0. 0. 0.]
+ 2021-03-02 22:28:13,178 - DEBUG - Malignant - [3. 0. 0. 0. 0.]
+ 2021-03-02 22:29:05,231 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:29:05,256 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:29:05,256 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:29:05,256 - DEBUG - Benign - [2. 0.]
+ 2021-03-02 22:29:05,257 - DEBUG - Malignant - [3. 0.]
+ 2021-03-02 22:30:04,225 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:30:04,252 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:30:04,252 - DEBUG - Dataframe number of columns - 2
+ 2021-03-02 22:30:04,252 - DEBUG - Benign - [3. 0.]
+ 2021-03-02 22:30:04,253 - DEBUG - Malignant - [6. 0.]
+ 2021-03-02 22:30:21,280 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:30:21,309 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:30:21,309 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:30:21,309 - DEBUG - Benign - [5. 0. 0.]
+ 2021-03-02 22:30:21,310 - DEBUG - Malignant - [9. 0. 0.]
+ 2021-03-02 22:33:43,861 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:33:43,883 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:33:43,883 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:33:58,675 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:33:58,697 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:33:58,698 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:35:12,938 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:35:12,965 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:35:12,965 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:35:47,294 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:35:47,323 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:35:47,323 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:37:00,262 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:37:00,286 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:37:00,286 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:37:00,291 - DEBUG - Benign column 0 - 5.0
+ 2021-03-02 22:37:00,291 - DEBUG - Malignant column 0 - 9.0
+ 2021-03-02 22:37:00,291 - DEBUG - Benign column 1 - 0.0
+ 2021-03-02 22:37:00,292 - DEBUG - Malignant column 1 - 0.0
+ 2021-03-02 22:37:00,292 - DEBUG - Benign column 2 - 0.0
+ 2021-03-02 22:37:00,292 - DEBUG - Malignant column 2 - 0.0
+ 2021-03-02 22:38:15,718 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:38:15,742 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:38:15,743 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:41:01,275 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:41:01,302 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:41:01,302 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:41:14,929 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:41:14,953 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:41:14,953 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:43:15,456 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:43:15,481 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:43:15,481 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:43:15,486 - DEBUG - Benign column 0 - 2.0
+ 2021-03-02 22:43:15,486 - DEBUG - Malignant column 0 - 3.0
+ 2021-03-02 22:43:15,487 - DEBUG - Benign column 1 - 20.0
+ 2021-03-02 22:43:15,487 - DEBUG - Malignant column 1 - 36.0
+ 2021-03-02 22:43:15,487 - DEBUG - Benign column 2 - 0.0
+ 2021-03-02 22:43:15,487 - DEBUG - Malignant column 2 - 1.0
+ 2021-03-02 22:44:26,290 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:44:26,312 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:44:26,312 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:44:50,953 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:44:50,975 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:44:50,975 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:45:03,351 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:45:03,373 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:45:03,373 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:45:12,221 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:45:12,242 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:45:12,242 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:45:23,836 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:45:23,860 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:45:23,860 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 22:46:03,901 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 22:46:03,923 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 22:46:03,923 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 23:03:22,985 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:03:23,010 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 23:03:23,010 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 23:04:41,292 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:04:41,317 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 23:04:41,317 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 23:05:00,671 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:05:00,695 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 23:05:00,695 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 23:05:15,019 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:05:15,044 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 23:05:15,044 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 23:05:15,051 - DEBUG - Benign column - [ 2. 20.  0.]
+ 2021-03-02 23:05:15,054 - DEBUG - Malignant column - [ 3. 36.  1.]
+ 2021-03-02 23:05:57,097 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:05:57,121 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 23:05:57,121 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 23:05:57,126 - DEBUG - Benign - [ 2. 20.  0.]
+ 2021-03-02 23:05:57,127 - DEBUG - Malignant - [ 3. 36.  1.]
+ 2021-03-02 23:06:29,890 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:06:29,914 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 23:06:29,914 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 23:06:29,921 - DEBUG - Benign - [ 2. 20.  0.]
+ 2021-03-02 23:06:29,922 - DEBUG - Malignant - [ 3. 36.  1.]
+ 2021-03-02 23:06:41,301 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:06:41,308 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 23:06:41,309 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 23:06:41,315 - DEBUG - Benign - [ 2. 20.  0.]
+ 2021-03-02 23:06:41,316 - DEBUG - Malignant - [ 3. 36.  1.]
+ 2021-03-02 23:06:59,973 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:06:59,979 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 23:06:59,979 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 23:06:59,986 - DEBUG - Benign - [ 2. 20.  0.]
+ 2021-03-02 23:06:59,986 - DEBUG - Malignant - [ 3. 36.  1.]
+ 2021-03-02 23:07:38,013 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:07:38,019 - DEBUG - Dataframe number of rows: - 10
+ 2021-03-02 23:07:38,019 - DEBUG - Dataframe number of columns - 3
+ 2021-03-02 23:07:38,026 - DEBUG - Benign - [ 2. 20.  0.]
+ 2021-03-02 23:07:38,026 - DEBUG - Malignant - [ 3. 36.  1.]
+ 2021-03-02 23:25:26,148 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:25:26,157 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:25:26,157 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:25:26,163 - DEBUG - Benign - [1. 6. 0. 0. 1.]
+ 2021-03-02 23:25:26,163 - DEBUG - Malignant - [ 4. 48.  2.  3.  1.]
+ 2021-03-02 23:27:31,113 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:27:31,120 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:27:31,120 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:27:31,126 - DEBUG - Benign - [ 4. 28.  1.  1.  3.]
+ 2021-03-02 23:27:31,126 - DEBUG - Malignant - [ 19. 121.   3.   4.   1.]
+ 2021-03-02 23:28:59,406 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:28:59,411 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:28:59,412 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:28:59,417 - DEBUG - Benign - [ 4. 14.  0.  0.  1.]
+ 2021-03-02 23:28:59,418 - DEBUG - Malignant - [ 19. 121.   3.   4.   1.]
+ 2021-03-02 23:30:45,002 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:30:45,008 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:30:45,008 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:30:45,013 - DEBUG - Benign - [ 4. 14.  0.  0.  1.]
+ 2021-03-02 23:30:45,015 - DEBUG - Malignant - [ 19. 121.   3.   4.   1.]
+ 2021-03-02 23:30:52,363 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:30:52,371 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:30:52,371 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:30:52,381 - DEBUG - Benign - [ 4. 14.  0.  0.  1.]
+ 2021-03-02 23:30:52,382 - DEBUG - Malignant - [ 19. 121.   3.   4.   1.]
+ 2021-03-02 23:31:34,707 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:31:34,715 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:31:34,715 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:31:34,721 - DEBUG - Benign - [1. 7. 0. 0. 1.]
+ 2021-03-02 23:31:34,721 - DEBUG - Malignant - [ 19. 242.   9.  16.   6.]
+ 2021-03-02 23:36:05,913 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:36:05,920 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:36:05,920 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:36:05,927 - DEBUG - Benign - [ 4. 28.  1.  1.  3.]
+ 2021-03-02 23:36:05,927 - DEBUG - Malignant - [ 19. 242.   9.  16.   6.]
+ 2021-03-02 23:49:28,385 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:49:28,391 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:49:28,391 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:50:30,272 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:50:30,279 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:50:30,279 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:50:30,285 - DEBUG - Benign - [ 4. 28.  1.  1.  3.]
+ 2021-03-02 23:50:30,286 - DEBUG - Malignant - [ 19. 242.   9.  16.   6.]
+ 2021-03-02 23:52:29,621 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:52:29,628 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:52:29,628 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:52:29,634 - DEBUG - Benign - [ 4. 28.  1.  1.  3.]
+ 2021-03-02 23:52:29,634 - DEBUG - Malignant - [ 1. 18.  0.  1.  0.]
+ 2021-03-02 23:55:14,807 - INFO - Path - data/mammographic/source.csv
+ 2021-03-02 23:55:14,813 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-02 23:55:14,813 - DEBUG - Dataframe number of columns - 5
+ 2021-03-02 23:55:14,818 - DEBUG - Benign - [ 4. 28.  1.  1.  3.]
+ 2021-03-02 23:55:14,819 - DEBUG - Malignant - [ 5. 60.  2.  4.  2.]
+ 2021-03-03 00:00:35,458 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 00:00:35,463 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 00:00:35,463 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 00:00:35,468 - DEBUG - Benign - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 00:00:35,469 - DEBUG - Malignant - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 00:00:41,268 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 00:00:41,274 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 00:00:41,274 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 00:00:41,279 - DEBUG - Benign - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 00:00:41,280 - DEBUG - Malignant - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 00:03:15,798 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 00:03:15,804 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 00:03:15,804 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 00:03:15,808 - DEBUG - Benign count - [1. 1. 1. 1. 1.]
+ 2021-03-03 00:03:15,808 - DEBUG - Malignant count - [4. 4. 4. 4. 2.]
+ 2021-03-03 00:03:15,809 - DEBUG - Benign avg - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 00:03:15,809 - DEBUG - Malignant avg - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 09:02:30,208 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:02:30,221 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 09:02:30,222 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 09:02:30,228 - DEBUG - Benign count - [1. 1. 1. 1. 1.]
+ 2021-03-03 09:02:30,229 - DEBUG - Malignant count - [4. 4. 4. 4. 2.]
+ 2021-03-03 09:02:30,229 - DEBUG - Benign avg - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 09:02:30,230 - DEBUG - Malignant avg - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 09:14:46,130 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:14:46,136 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 09:14:46,136 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 09:14:46,140 - DEBUG - Benign count - [1. 1. 1. 1. 1.]
+ 2021-03-03 09:14:46,140 - DEBUG - Malignant count - [4. 4. 4. 4. 2.]
+ 2021-03-03 09:14:46,141 - DEBUG - Benign avg - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 09:14:46,141 - DEBUG - Malignant avg - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 09:15:19,968 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:16:04,850 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:16:09,878 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:17:02,596 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:17:28,014 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:17:49,144 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:18:09,070 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:18:09,075 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 09:18:09,076 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 09:18:09,080 - DEBUG - Benign count - [1. 1. 1. 1. 1.]
+ 2021-03-03 09:18:09,080 - DEBUG - Malignant count - [4. 4. 4. 4. 2.]
+ 2021-03-03 09:18:09,080 - DEBUG - Benign avg - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 09:18:09,081 - DEBUG - Malignant avg - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 09:18:20,171 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:18:20,178 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 09:18:20,178 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 09:18:20,183 - DEBUG - Benign count - [1. 1. 1. 1. 1.]
+ 2021-03-03 09:18:20,183 - DEBUG - Malignant count - [4. 4. 4. 4. 2.]
+ 2021-03-03 09:18:20,184 - DEBUG - Benign avg - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 09:18:20,185 - DEBUG - Malignant avg - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 09:21:32,384 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:21:48,312 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:22:08,193 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:22:34,973 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:22:49,158 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:22:52,684 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:23:09,100 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:23:09,107 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 09:23:09,107 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 09:23:09,112 - DEBUG - Benign count - [1. 1. 1. 1. 1.]
+ 2021-03-03 09:23:09,112 - DEBUG - Malignant count - [4. 4. 4. 4. 2.]
+ 2021-03-03 09:23:09,113 - DEBUG - Benign avg - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 09:23:09,114 - DEBUG - Malignant avg - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 09:35:16,023 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:35:16,028 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 09:35:16,028 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 09:35:16,032 - DEBUG - Benign count - [1. 1. 1. 1. 1.]
+ 2021-03-03 09:35:16,032 - DEBUG - Malignant count - [4. 4. 4. 4. 2.]
+ 2021-03-03 09:35:16,033 - DEBUG - Benign avg - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 09:35:16,033 - DEBUG - Malignant avg - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 09:41:25,024 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:41:25,030 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 09:41:25,030 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 09:41:25,034 - DEBUG - Benign count - [1. 1. 1. 1. 1.]
+ 2021-03-03 09:41:25,034 - DEBUG - Malignant count - [4. 4. 4. 4. 2.]
+ 2021-03-03 09:41:25,035 - DEBUG - Benign avg - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 09:41:25,035 - DEBUG - Malignant avg - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 09:41:58,044 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 09:41:58,049 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 09:41:58,049 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 09:41:58,053 - DEBUG - Benign count - [1. 1. 1. 1. 1.]
+ 2021-03-03 09:41:58,054 - DEBUG - Malignant count - [4. 4. 4. 4. 2.]
+ 2021-03-03 09:41:58,054 - DEBUG - Benign avg - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 09:41:58,055 - DEBUG - Malignant avg - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 09:41:58,055 - DEBUG - Dataframe number of rows: - 5
+ 2021-03-03 09:41:58,055 - DEBUG - Dataframe number of columns - 5
+ 2021-03-03 09:41:58,060 - DEBUG - Benign count - [1. 1. 1. 1. 1.]
+ 2021-03-03 09:41:58,060 - DEBUG - Malignant count - [4. 4. 4. 4. 2.]
+ 2021-03-03 09:41:58,061 - DEBUG - Benign avg - [ 4. 28.  1.  1.  3.]
+ 2021-03-03 09:41:58,061 - DEBUG - Malignant avg - [ 5. 60.  2.  4.  3.]
+ 2021-03-03 23:21:38,060 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 23:22:28,618 - INFO - Path - data/mammographic/source.csv
+ 2021-03-03 23:22:54,107 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:15:36,010 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:16:25,952 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:16:36,474 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:28:36,724 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:29:16,406 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:29:18,989 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:29:58,705 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:30:53,915 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:32:00,745 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:33:08,222 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:33:49,192 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:34:30,186 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:35:36,896 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:37:15,158 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:37:49,762 - INFO - Path - data/mammographic/source.csv
+ 2021-03-04 07:41:06,874 - INFO - Path - data/mammographic/source.csv

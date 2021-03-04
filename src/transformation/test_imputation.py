@@ -16,8 +16,7 @@ PATH = ("data/mammographic/source.csv")
 HEADER = ["BI-RADS","AGE","SHAPE","MARGIN","DENSITY","SEVERITY"]
 
 try: 
-    df = pd.read_csv(PATH, names = HEADER)
-    df = df.head()
+    df = (pd.read_csv(PATH, names = HEADER)).head()
 except:
     logging.warning("pandas did not find the dataset source")
 finally:

@@ -24,8 +24,13 @@ class Normalization(object):
     
     def max_min(self, decimals: int) -> np.array:
         arr = self.value 
-        for i in range(arr.size):
-            arr[i] = (arr[i] - self.small) / (self.large - self.small)
+        large_small = (self.large - self.small)
+        if (large_small != 0):
+            for i in range(arr.size):   
+                arr[i] = (arr[i] - self.small) / large_small
+        else:
+            for i in range(arr.size):
+                arr[i] = 0
         return np.around(arr, decimals=decimals)
     
     
@@ -38,8 +43,12 @@ class Normalization(object):
     
     def z_score(self, decimals: int) -> np.array:
         arr = self.value 
-        for i in range(arr.size):
-            arr[i] = (arr[i] - self.avg) / (self.std)
+        if (self.std != 0):
+            for i in range(arr.size):
+                arr[i] = (arr[i] - self.avg) / (self.std)
+        else:
+            for i in range(arr.size):
+                arr[i] = 0
         return np.around(arr, decimals=decimals)
     
 
