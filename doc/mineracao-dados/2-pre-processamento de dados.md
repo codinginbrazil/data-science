@@ -94,9 +94,9 @@ escala e unidades em bases compatíveis
             a' = \frac{a - min_a}{max_a - min_a}
         $$
 
-    * Escore-Z:
+    * Escore-Z (Escore Padronizado):
         
-        Útil quando se desconhece a amplitude dos dados ou há outliers.
+        Útil quando se desconhece a amplitude dos dados ou há outliers, faz parte das medidas de posição relativa
         
         $$
             a' = \frac{a - \bar{a} } {\delta_a} 
@@ -111,7 +111,13 @@ escala e unidades em bases compatíveis
             a´ = \frac{a}{10~^j}
         $$
 
-    * Range interquatil:
+    * Range interquatil;
+
+    faz parte das medidas de posição relativa
+
+    $$
+        IQR = Q_3 - Q_1
+    $$
 
     * Trivial:
     
