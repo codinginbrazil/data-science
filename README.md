@@ -51,8 +51,9 @@ Identificar os padrões obtidos pela representação do conhecimento são válid
 
 ### Livro
 1. Introdução a mineração de dados por Daniel Gomes Ferrari e Leandro Nunes de Castro Silva
-2. Python para análise de dados por Wes McKinney
-3. [Introdução à Ciência de Dados Fundamentos e Aplicações](https://www.ime.usp.br/~jmsinger/MAE5755/cdados2019ago06.pdf)
+2. [Data Science para Negócios](https://data-science-for-biz.com/)
+3. Python para análise de dados por Wes McKinney
+4. [Introdução à Ciência de Dados Fundamentos e Aplicações](https://www.ime.usp.br/~jmsinger/MAE5755/cdados2019ago06.pdf)
 
 ### Blog
 * [DIKW by Towards Data Science](https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb)
@@ -67,10 +68,12 @@ Identificar os padrões obtidos pela representação do conhecimento são válid
 ### Data Repositories
 * [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php)
 * [KDnuggets](https://www.kdnuggets.com/datasets/index.html)
-* [Brasil IO](https://brasil.io/)
 * [Governo Brasileiro](https://dados.gov.br/)
+    * [Brasil IO](https://brasil.io/)
+    * [Gasto de parlamentar](https://serenata.ai/)
 * [Governo Americano](https://www.data.gov/)
 * [Governo do Inglês](https://data.gov.uk/)
+* [PyData Book](https://github.com/wesm/pydata-book)
 
 ### Cursos
 * [UFPR](http://cursos.leg.ufpr.br/ML4all/1parte/)

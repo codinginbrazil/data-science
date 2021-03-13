@@ -119,4 +119,42 @@ $$
 
     * Medidas de posição relativa
 
+    Quartils e boxplot
+
+    * Medida de associação
+
+        * Covariância
+
+        $$
+            cov(x,y) = \frac{1}{N} \sum^{N}_{i=1} (x - \bar{x}) (y - \bar{y})
+        $$
+
+        * Coeficiente de correlação de Person
+
+        Mede a dependência linear entre os atributos de forma linear.
+
+        $$
+            \rho(x,y) = \frac{cov(x,y)}{\sigma(x) * \sigma(y)} 
+        $$
+         
+        |    Size of Correlation      |              Interpretation               |
+        |-----------------------------|-------------------------------------------|
+        | 0.90 to 1.00 (−.90 to −1.0) | Very high positive (negative) correlation |
+        | 0.70 to 0.90 (−.70 to −.90) | High positive      (negative) correlation |
+        | 0.50 to 0.70 (−.50 to −.70) | Moderate positive  (negative) correlation |
+        | 0.30 to 0.50 (−.30 to −.50) | Low positive       (negative) correlation |
+        | 0.00 to 0.30 (0.00 to −.30) | Negligible correlation |
+        
+        [statistical guides](https://statistics.laerd.com/statistical-guides/pearson-correlation-coefficient-statistical-guide.php)
+
+---
+
+* Visualização dos dados
+
+* Medidas de Resumo
+
+    * Medidas de tendência central
+    * Medida de dispersão
+    * Medida de forma distribuição
+
     

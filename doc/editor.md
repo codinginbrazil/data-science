@@ -1,7 +1,7 @@
 # Editor 
 
 ## IPython 
-interpretador interativo para várias linguagens de programação, mas especialmente focado em Python. Ipython oferece "type introspection", "rich media", sintax shell, completação por tab e 
+interpretador interativo para várias linguagens de programação, mas especialmente focado em Python. 
 
 ### Edição auxiliada por histórico de comando
 * JupyterLab
