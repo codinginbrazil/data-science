@@ -1,0 +1,71 @@
+\subsection{Análise de grupos}
+
+Grupos naturais descrito por Carmichael que grupos são aqueles que satisfazem duas condições particulares:
+\begin{enumerate}
+    \item Existência de regiões contínuas do espaço, relativamente densamente populadas por objetos;
+    \item Tais regiões estão rodeadas por regiões relativamente vazias.
+\end{enumerate}
+
+
+\subsubsection{Medidas de similaridade}
+
+Matriz de confusão (contingência)
+
+\paragraph*{Dados binários}
+
+Distância Hamming
+
+\begin{table}
+    \centering
+    \caption{Medidas de dissimilaridade para variáveis contínuas}
+    \begin{tabular}{l|l}
+        \hline
+        \multicolumn{1}{c|}{\textbf{Medida}} & \multicolumn{1}{c}{\textbf{Fórmula}}       \\ \hline
+        S1: Coeficiente de Matching          & $ S_{ij} = \frac{a + d}{a + b + c + d}   $ \\ \hline
+        S2: Coeficiente de Jaccard           & $ S_{ij} = \frac{a}{a+b+c}               $ \\ \hline
+        S3: Rogers \& Tanimoto               & $ S_{ij} = \frac{a+d}{a+2(b+c)+d}        $ \\ \hline
+        S4: Sokal \& Sneath                  & $ S_{ij} = \frac{a}{a+2(b+c)}            $ \\ \hline
+        S5: Gower \& Legendre                & $ S_{ij} = \frac{a+d}{a+0.5(b+c)+d}      $ \\ \hline
+        S6: Gower \& Legendre 2              & $ S_{ij} = \frac{a}{a+0.5(b+c)}          $ \\ \hline
+    \end{tabular}
+\end{table}
+
+
+\subsubsection{Medidas de dissimilaridade para variáveis contínuas}
+
+\paragraph*{Medidade distância}
+\subparagraph*{Família de distância Minkowski}
+\subparagraph*{Distância de Canberra}
+
+\paragraph*{Medidas tipos de correlação}
+
+\subparagraph*{Correlação de Pearson $ [-1,1] $}
+\subparagraph*{Medidda do Cosseno $ [-1,1] $}
+
+
+\subsubsection{Métodos de agrupamento}
+
+\begin{itemize}
+    \item Hierárquicos
+    \item Particionais
+\end{itemize}
+
+
+\paragraph*{Avaliação}
+
+\begin{itemize}
+    \item Compactação
+    \item Separação
+\end{itemize}
+
+
+Medidas internas, seguindo o índice de (p. 241):
+
+\begin{itemize}
+    \item Dunn
+    \item Davies-Bouldin
+    \item Bezdek-Pal
+    \item Silhueta
+\end{itemize}
+
+Medidas externas

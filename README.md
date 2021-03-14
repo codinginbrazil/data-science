@@ -38,14 +38,14 @@ Identificar os padrões obtidos pela representação do conhecimento são válid
 ---
 
 ## Conteúdo
-* [editor](https://github.com/codinginbrazil/data-science/blob/main/doc/editor.md)             
-* [package-manager](https://github.com/codinginbrazil/data-science/blob/main/doc/package-manager.md)  
-* [math](https://github.com/codinginbrazil/data-science/blob/main/doc/math.md)             
-* [data-visualization](https://github.com/codinginbrazil/data-science/blob/main/doc/data-visualization.md)  
-* [web-scraping](https://github.com/codinginbrazil/data-science/blob/main/doc/web-scraping.md)
-* [image-processing](https://github.com/codinginbrazil/data-science/blob/main/doc/image-processing.md)  
-* [machine-learning](https://github.com/codinginbrazil/data-science/blob/main/doc/machine-learning.md) 
-* [parallel-processing](https://github.com/codinginbrazil/data-science/blob/main/doc/parallel-processing.md)
+* [Editor](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/editor.tex)             
+* [Gerenciamento de pacotes](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/package_manager.tex)  
+* [Bibliotecas essenciais](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/essential.tex)             
+* [Visualização dos dados](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/view.tex)  
+* [Web scraping](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/web_scraping.tex)
+* [Processamento imagem](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/image.tex)  
+* [Aprendizagem de máquina](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/ml.tex) 
+
 
 ## Referência
 
