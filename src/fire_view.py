@@ -2,7 +2,7 @@ import pandas as pd
 
 
 if __name__ == "__main__" :
-    path = ("data/forest_fires/source.csv")
+    path = ("dataset/forest_fires/source.csv")
     try: 
         df = pd.read_csv(path)
     except:

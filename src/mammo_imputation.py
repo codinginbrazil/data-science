@@ -7,7 +7,7 @@ from transformation.library import Normalization as nm
 
 
 if __name__ == "__main__" :
-    PATH = ("data/mammographic/source.csv")
+    PATH = ("dataset/mammographic/source.csv")
     HEADER = ["BI-RADS","AGE","SHAPE","MARGIN","DENSITY","SEVERITY"]
 
     logging.basicConfig(filename=('log/mammographic.txt'),
@@ -27,7 +27,7 @@ if __name__ == "__main__" :
     
     imputation = (iptt(df,2)) 
     df = (imputation.replace('?', imputation.avg())).astype(int) 
-    df.to_csv("data/mammographic/imputation.csv", encoding='utf-8', index=False) 
+    df.to_csv("dataset/mammographic/imputation.csv", encoding='utf-8', index=False) 
     
     
     """ Procedimento de limpeza de dados: método de imputação

@@ -7,7 +7,7 @@ from transformation.library import Normalization as nm
 
 
 if __name__ == "__main__" :
-    PATH = ("data/mammographic/imputation.csv")
+    PATH = ("dataset/mammographic/imputation.csv")
 
     logging.basicConfig(filename=('log/mammographic.txt'),
             level=logging.DEBUG, 
@@ -26,7 +26,7 @@ if __name__ == "__main__" :
     for i in range(len(df.columns) - 1):
         (df.iloc[:, i]) = (nm(((df.iloc[:, i]).astype(float))).max_min(3))
      
-    df.to_csv("data/mammographic/normalization.csv", encoding='utf-8', index=False) 
+    df.to_csv("dataset/mammographic/normalization.csv", encoding='utf-8', index=False) 
     
         
 """ 1. Title: Mammographic Mass Data

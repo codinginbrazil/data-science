@@ -61,6 +61,7 @@ Identificar os padrões obtidos pela representação do conhecimento são válid
 * [Curso R](https://blog.curso-r.com/)
 * [Tests as linear by Lindeloev](https://lindeloev.github.io/tests-as-linear/)
 * [A Titanic Probability](https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12.html)
+* https://sigmoidal.ai/data-science-titanic-python-1/
 * [Titanic passo a passo com 8 modelos de Machine Learning](https://www.kaggle.com/samukaunt/titanic-passo-a-passo-com-8-modelos-ml-pt-br)
 
 ### Data visualization
