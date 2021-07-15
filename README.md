@@ -50,24 +50,31 @@ Identificar os padrões obtidos pela representação do conhecimento são válid
 ## Referência
 
 ### Livro
-1. Introdução a mineração de dados por Daniel Gomes Ferrari e Leandro Nunes de Castro Silva
-2. [Data Science para Negócios](https://data-science-for-biz.com/)
-3. Python para análise de dados por Wes McKinney
-4. [Introdução à Ciência de Dados Fundamentos e Aplicações](https://www.ime.usp.br/~jmsinger/MAE5755/cdados2019ago06.pdf)
-5. Machine Learning – Guia de Referência Rápida: Trabalhando com dados estruturados em Python
+* [Dados abertos Conectados](https://ceweb.br/livros/dados-abertos-conectados//)
+* [Data Science para Negócios](https://data-science-for-biz.com/)
+* [Data on the Web Best Practices](https://w3c.br/traducoes/DWBP-pt-br/)
+* [Escola de dados](https://escoladedados.org/ebooks/)
+* [Guia de Dados Abertos](http://opendatahandbook.org/guide/pt_BR/)
+* Introdução a mineração de dados por Daniel Gomes Ferrari e Leandro Nunes de Castro Silva
+* [Introdução à Ciência de Dados Fundamentos e Aplicações](https://www.ime.usp.br/~jmsinger/MAE5755/cdados2019ago06.pdf)
+* Machine Learning – Guia de Referência Rápida: Trabalhando com dados estruturados em Python
+* Python para análise de dados por Wes McKinney
+
 
 ### Blog
-* [DIKW by Towards Data Science](https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb)
 * [Curso R](https://blog.curso-r.com/)
+* [DIKW by Towards Data Science](https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb)
 * [Tests as linear by Lindeloev](https://lindeloev.github.io/tests-as-linear/)
-* [A Titanic Probability](https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12.html)
-* https://sigmoidal.ai/data-science-titanic-python-1/
-* [Titanic passo a passo com 8 modelos de Machine Learning](https://www.kaggle.com/samukaunt/titanic-passo-a-passo-com-8-modelos-ml-pt-br)
+* Titanic
+    * [A Titanic Probability](https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12.html)
+    * [Titanic passo a passo com 8 modelos de Machine Learning](https://www.kaggle.com/samukaunt/titanic-passo-a-passo-com-8-modelos-ml-pt-br)
+    * https://sigmoidal.ai/data-science-titanic-python-1/
+* [Towards Data Science](https://towardsdatascience.com/)
 
 ### Data visualization
-* [Matplotlib](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html)
 * [Data Visualization – Charts with Matplotlib](https://petamind.com/data-visualization-matplotlib-python-chart/)
 * [Data Science: Visualização de Dados com Python](https://www.udemy.com/course/visualizacao-de-dados-com-python/)
+* [Matplotlib](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html)
 
 ### Data Repositories
 * [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php)
@@ -81,4 +88,3 @@ Identificar os padrões obtidos pela representação do conhecimento são válid
 
 ### Cursos
 * [UFPR](http://cursos.leg.ufpr.br/ML4all/1parte/)
-
