@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import logging
 import numpy as np 
 import pandas as pd
@@ -12,7 +14,7 @@ MALIGNANT = np.array([5., 60., 2., 4., 3.])
 BENIGN_COUNT = np.array([1., 1., 1., 1., 1.]) 
 MALIGNANT_COUNT = np.array([4., 4., 4., 4., 2.])
 
-PATH = ("data/mammographic/source.csv")
+PATH = ("dataset/mammographic/source.csv")
 HEADER = ["BI-RADS","AGE","SHAPE","MARGIN","DENSITY","SEVERITY"]
 
 try: 
