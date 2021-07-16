@@ -1,5 +1,7 @@
 # Data Science
 
+
+
 ## Origem
 A mineração de dados surgiu como área de pesquisa e aplicação independente em meados da década de 1990. 
 Entretanto, as suas origens na matemática, estatística e computação são muito
@@ -8,6 +10,8 @@ anteriores a esse período ¹.
 ## Objetivo
 Preparação e análise das grandes massas de dados, tendo a finalidade de encontrar o conhecimento.
 Portanto, para cumprir tal finalidade, reuni áreas distintas, como estatística; matemática; engenharia; inteligência artificial; banco de dados; sistemas de informação; visualização; antropologia; e o especialista do domínio dos dados, que se complementam e formam a área de ciência de dados. 
+
+[5 ★ DOS DADOS ABERTOS](https://5stardata.info/pt-BR/)
 
 ### KDD 
 <p align="center">
@@ -37,14 +41,7 @@ Identificar os padrões obtidos pela representação do conhecimento são válid
 
 ---
 
-## Conteúdo
-* [Editor](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/editor.tex)             
-* [Gerenciamento de pacotes](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/package_manager.tex)  
-* [Bibliotecas essenciais](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/essential.tex)             
-* [Visualização dos dados](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/view.tex)  
-* [Web scraping](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/web_scraping.tex)
-* [Processamento imagem](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/image.tex)  
-* [Aprendizagem de máquina](https://github.com/codinginbrazil/data-science/blob/main/doc/section/python/ml.tex) 
+## [Conteúdo](https://github.com/codinginbrazil/data-science/blob/main/doc/report.pdf)
 
 
 ## Referência
@@ -79,7 +76,9 @@ Identificar os padrões obtidos pela representação do conhecimento são válid
 ### Data Repositories
 * [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php)
 * [KDnuggets](https://www.kdnuggets.com/datasets/index.html)
+* [Government](https://government.github.com/)
 * [Governo Brasileiro](https://dados.gov.br/)
+    * [Licença](https://github.com/dadosgovbr/course-opendata-license)
     * [Brasil IO](https://brasil.io/)
     * [Gasto de parlamentar](https://serenata.ai/)
 * [Governo Americano](https://www.data.gov/)
